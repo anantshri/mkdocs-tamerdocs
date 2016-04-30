@@ -1,5 +1,3 @@
-hide_toc: true
-
 # MkDocs Reloaded Theme
 
 This project provides a customized version of Default [MkDocs] theme.
