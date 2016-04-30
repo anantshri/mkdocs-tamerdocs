@@ -1,0 +1,39 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "MkDocs Reloaded Theme\n\n\nThis project provides a customized version of Default \nMkDocs\n theme.\n\n\nInstallation\n\n\nPending\n\n\nExample\n\n\nThis \ndocumentation\n is rendered with the Reloaded theme.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#mkdocs-reloaded-theme", 
+            "text": "This project provides a customized version of Default  MkDocs  theme.", 
+            "title": "MkDocs Reloaded Theme"
+        }, 
+        {
+            "location": "/#installation", 
+            "text": "Pending", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/#example", 
+            "text": "This  documentation  is rendered with the Reloaded theme.", 
+            "title": "Example"
+        }, 
+        {
+            "location": "/test/", 
+            "text": "Level 1\n\n\nLevel 2\n\n\nLevel 3", 
+            "title": "Test"
+        }, 
+        {
+            "location": "/second_level/third/", 
+            "text": "third page", 
+            "title": "Third"
+        }, 
+        {
+            "location": "/second_level/third/#third-page", 
+            "text": "", 
+            "title": "third page"
+        }
+    ]
+}

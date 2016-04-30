@@ -1,0 +1,17 @@
+{% if meta.source %}
+<div class="source-links">
+{% for filename in meta.source %}
+    <span class="label label-primary">{{ filename }}</span>
+{% endfor %}
+</div>
+{% endif %}
+{% if meta.mindmap %}
+    <link rel="stylesheet" href="{{ base_url }}/css/mindmap.css">
+<div class="mindmap">
+{% endif %}
+
+{{ content }}
+
+{% if meta.mindmap %}
+</div>
+{% endif %}
