@@ -42,7 +42,7 @@
             {% endif %}
 
             <ul class="nav navbar-nav navbar-right">
-                {% if search %}
+                {% if not config.extra.search is defined or config.extra.search == true %}
                     <li>
                         <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
                             <i class="fa fa-search"></i> Search

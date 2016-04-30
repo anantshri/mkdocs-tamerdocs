@@ -5,4 +5,6 @@ site_author: Anant Shrivastava
 repo_url: https://github.com/mkdocs/mkdocs-bootstrap
 copyright: Copyright &copy; <a href="https://anantshri.info">Anant Shrivastava</a>
 theme_dir: mkdocs-reloaded
-search: false
+include_next_prev: false
+extra:
+  search: false
