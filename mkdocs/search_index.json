@@ -21,19 +21,19 @@
             "title": "Example"
         }, 
         {
-            "location": "/test/", 
+            "location": "/mindmap/", 
             "text": "Level 1\n\n\nLevel 2\n\n\nLevel 3", 
-            "title": "Test"
+            "title": "Mindmap"
         }, 
         {
             "location": "/second_level/third/", 
-            "text": "third page", 
+            "text": "Page with no ToC page", 
             "title": "Third"
         }, 
         {
-            "location": "/second_level/third/#third-page", 
+            "location": "/second_level/third/#page-with-no-toc-page", 
             "text": "", 
-            "title": "third page"
+            "title": "Page with no ToC page"
         }
     ]
 }
