@@ -11,4 +11,8 @@ extra:
   search: false
 ``` 
 in mkdocs.yml
+1. Bare minimum mindmapping capability
+    for this to work we need following items
+    1. add ```mindmap: true``` in page
+    1. page should contain mind map in markdown list format.
 
