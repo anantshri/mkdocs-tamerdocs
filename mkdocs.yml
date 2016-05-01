@@ -2,9 +2,9 @@ site_name: MkDocs Reloaded Theme
 site_url: http://anantshri.github.io/mkdocs-reloaded/
 site_description: MkDocs Reloaded Theme
 site_author: Anant Shrivastava
-repo_url: https://github.com/mkdocs/mkdocs-bootstrap
+repo_url: https://github.com/anantshri/mkdocs-reloaded
 copyright: Copyright &copy; <a href="https://anantshri.info">Anant Shrivastava</a>
 theme_dir: mkdocs-reloaded
 include_next_prev: false
 extra:
-  search: false
+  search: true
