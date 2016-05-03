@@ -8,3 +8,6 @@ theme_dir: mkdocs-reloaded
 include_next_prev: false
 extra:
   search: true
+  twitter: https://www.twitter.com/anantshri
+  facebook: https://www.facebook.com/Anantshri
+  linkedin: https://www.linkedin.com/in/anantshri
