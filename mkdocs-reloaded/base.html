@@ -9,6 +9,20 @@
         {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
         {% if favicon %}<link rel="shortcut icon" href="{{ base_url }}/{{ favicon }}">
         {% else %}<link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">{% endif %}
+        <meta name="twitter:card" content="summary" />
+        {% if config.extra.twitter %}<meta name="twitter:site" content="{{ config.extra.twitter }}" />{% endif %}
+        <meta name="twitter:title" content="{{ site_name }}" />
+        <meta property="og:title" content="{{ site_name }}" />
+        <meta property="og:url" content="{{ site_url }}" />
+        {% if page_description %}
+        <meta property="og:description" content="{{ page_description }}" />
+        <meta name="twitter:description" content="{{ page_description }}" />
+        {% endif %}
+        {% if config.extra.social_image %}
+        <meta property="og:image" content="{{ base_url }}{{ config.extra.social_image }}" />
+        <meta name="twitter:image" content="{{ base_url }}{{ config.extra.social_image }}" />
+        {% endif %}
+
 
 	<title>{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}</title>
 
