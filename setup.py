@@ -14,8 +14,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     entry_points={
-        'mkdocs.themes': [
-            'tamerdocs = mkdocs-tamerdocs',
+        'mkdocs.themes':[
+            'tamerdocs=tamerdocs',
         ]
     },
     zip_safe=False

@@ -1,5 +1,5 @@
 *.pyc
 dist/
-mkdocs-reloaded.egg-info/
+tamerdocs.egg-info/
 site/
 .DS_Store

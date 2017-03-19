@@ -1,10 +1,10 @@
-site_name: MkDocs Reloaded Theme
-site_url: http://anantshri.github.io/mkdocs-reloaded/
-site_description: MkDocs Reloaded Theme
+site_name: Tamerdocs Theme
+site_url: http://anantshri.github.io/tamerdocs/
+site_description: mkdocs theme for Tamerdocs
 site_author: Anant Shrivastava
-repo_url: https://github.com/anantshri/mkdocs-reloaded
+repo_url: https://github.com/anantshri/tamerdocs
 copyright: Copyright &copy; <a href="https://anantshri.info">Anant Shrivastava</a>
-theme_dir: mkdocs-reloaded
+theme_dir: tamerdocs
 include_next_prev: false
 extra:
   search: true
