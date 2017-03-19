@@ -4,16 +4,32 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="MkDocs Reloaded Theme">
+        <meta name="description" content="mkdocs theme for Tamerdocs">
         <meta name="author" content="Anant Shrivastava">
-        <link rel="canonical" href="http://anantshri.github.io/mkdocs-reloaded/">
+        
+        <link rel="canonical" href="http://anantshri.github.io/tamerdocs/">
+        
+        
         <link rel="shortcut icon" href="./img/favicon.ico">
-
-	<title>MkDocs Reloaded Theme</title>
-
+        
+        <meta name="twitter:card" content="summary" />
+        
+        <meta name="twitter:site" content="https://www.twitter.com/anantshri" />
+        
+        <meta name="twitter:title" content="Tamerdocs Theme" />
+        <meta property="og:title" content="Tamerdocs Theme" />
+        <meta property="og:url" content="http://anantshri.github.io/tamerdocs/" />
+        
+        <meta property="og:description" content="mkdocs theme for Tamerdocs" />
+        <meta name="twitter:description" content="mkdocs theme for Tamerdocs" />
+        
+        
+        <title>Tamerdocs Theme</title>
         <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="./css/base.css" rel="stylesheet">
+        
+        
         <link rel="stylesheet" href="./css/highlight.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,8 +37,6 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-
-        
     </head>
 
     <body class="homepage">
@@ -43,7 +57,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">MkDocs Reloaded Theme</a>
+            <a class="navbar-brand" href=".">Tamerdocs Theme</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -84,12 +98,33 @@
 
             <ul class="nav navbar-nav navbar-right">
                 
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                
                 
                 
                     <li>
-                        <a href="https://github.com/mkdocs/mkdocs-bootstrap">
+                        <a href="https://www.twitter.com/anantshri"><i class="fa fa-twitter fa-1x"></i></a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://www.facebook.com/Anantshri"><i class="fa fa-facebook fa-1x"></i></a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://www.linkedin.com/in/anantshri"><i class="fa fa-linkedin fa-1x"></i></a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://github.com/anantshri/tamerdocs">
                             
-                                <i class="fa fa-github"></i>
+                                <i class="fa fa-github fa-1x"></i>
                             
                             GitHub
                         </a>
@@ -123,7 +158,7 @@
 <h2 id="installation">Installation</h2>
 <p>Pending</p>
 <h2 id="example">Example</h2>
-<p>This <a href="http://mkdocs.github.io/mkdocs-bootstrap/">documentation</a> is rendered with the Reloaded theme.</p>
+<p>This <a href="http://tools.androidtamer.com/">documentation</a> is rendered with the Tamerdocs theme.</p>
 
 </div>
                 
@@ -135,20 +170,48 @@
             
                 <p>Copyright &copy; <a href="https://anantshri.info">Anant Shrivastava</a></p>
             
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> on 2016-04-30 23:25:22.642898 </p>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> - Last updated : 2017-03-19</p>
         </footer>
 
         <script src="./js/jquery-1.12.3.min.js"></script>
         <script src="./js/bootstrap-3.0.3.min.js"></script>
         <script src="./js/highlight.pack.js"></script>
+        
         <script>var base_url = '.';</script>
 
+        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
+
         <script src="./js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-04-30 23:25:22.642898
+Build Date UTC : 2017-03-19 21:29:12.483498
 -->

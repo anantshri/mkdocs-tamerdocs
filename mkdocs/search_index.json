@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "MkDocs Reloaded Theme\n\n\nThis project provides a customized version of Default \nMkDocs\n theme.\n\n\nInstallation\n\n\nPending\n\n\nExample\n\n\nThis \ndocumentation\n is rendered with the Reloaded theme.", 
+            "text": "MkDocs Reloaded Theme\n\n\nThis project provides a customized version of Default \nMkDocs\n theme.\n\n\nInstallation\n\n\nPending\n\n\nExample\n\n\nThis \ndocumentation\n is rendered with the Tamerdocs theme.", 
             "title": "Home"
         }, 
         {
@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/#example", 
-            "text": "This  documentation  is rendered with the Reloaded theme.", 
+            "text": "This  documentation  is rendered with the Tamerdocs theme.", 
             "title": "Example"
         }, 
         {
