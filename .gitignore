@@ -1,5 +1,6 @@
 *.pyc
 dist/
+build/
 tamerdocs.egg-info/
 site/
 .DS_Store
