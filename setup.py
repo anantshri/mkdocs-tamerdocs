@@ -8,7 +8,7 @@ setup(
     version=VERSION,
     url='https://anantshri.github.io/mkdocs-tamerdocs/',
     license='GPL',
-    description='AndroidTamer mkdocs theme',
+    description='Mkdocs theme used on AndroidTamer portals',
     author='Anant Shrivastava',
     author_email='anant@anantshri.info',
     packages=find_packages(),
