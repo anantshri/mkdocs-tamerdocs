@@ -8,9 +8,7 @@ Pending
 
 ## Example
 
-This [documentation] is rendered with the Reloaded theme.
+This [documentation] is rendered with the Tamerdocs theme.
 
 [Mkdocs]: http://www.mkdocs.org
-[mkdocs.yml]: http://www.mkdocs.org/user-guide/configuration/
-[theme]: http://www.mkdocs.org/user-guide/configuration/#theme
-[documentation]: http://mkdocs.github.io/mkdocs-bootstrap/
+[documentation]: http://tools.androidtamer.com/
