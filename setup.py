@@ -4,18 +4,18 @@ VERSION = '0.0.1'
 
 
 setup(
-    name="mkdocs-reloaded",
+    name="tamerdocs",
     version=VERSION,
-    url='https://anantshri.github.io/mkdocs-reloaded/',
+    url='https://anantshri.github.io/mkdocs-tamerdocs/',
     license='GPL',
-    description='Reloaded: Default theme for MkDocs',
+    description='AndroidTamer mkdocs theme',
     author='Anant Shrivastava',
     author_email='anant@anantshri.info',
     packages=find_packages(),
     include_package_data=True,
     entry_points={
         'mkdocs.themes': [
-            'reloaded = mkdocs-reloaded',
+            'tamerdocs = mkdocs-tamerdocs',
         ]
     },
     zip_safe=False

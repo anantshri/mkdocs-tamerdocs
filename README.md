@@ -1,6 +1,6 @@
-# Mkdocs theme reloaded
+# Mkdocs theme for Android Tamer Documentation
 
-Based on default mkdocs theme with some customizations.
+Based on default mkdocs theme with multiple customizations.
 
 Customizations include
 
