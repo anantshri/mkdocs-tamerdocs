@@ -22,4 +22,7 @@ extra:
 ```
  extra:
    search: false
-``` 
+```
+1. Asciinema integration.
+    1. Add a tag ```asciinema:true``` to add relevent css and js
+    2. page should contain ```<asciinema-player src="/ascii/demo.json"></asciinema-player>``` where src should point to hosted json file
