@@ -26,3 +26,8 @@ extra:
 7. Asciinema integration.
     1. Add a tag ```asciinema:true``` to add relevent css and js
     2. page should contain ```<asciinema-player src="/ascii/demo.json"></asciinema-player>``` where src should point to hosted json file
+8. As `include_prev_next` is now deprecated hence new variable extra.navigate added to remove navigation options. So to remove navigation entirely.
+```
+extra:
+  navigation: false
+```

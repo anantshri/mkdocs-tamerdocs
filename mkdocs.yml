@@ -1,13 +1,13 @@
-site_name: Tamerdocs Theme
-site_url: http://anantshri.github.io/tamerdocs/
-site_description: mkdocs theme for Tamerdocs
+site_name: AndroidTamer mkdocs theme
+site_url: http://anantshri.github.io/mkdocs-tamerdocs/
+site_description: mkdocs theme for Android Tamer documentation portals
 site_author: Anant Shrivastava
-repo_url: https://github.com/anantshri/tamerdocs
-copyright: Copyright &copy; <a href="https://anantshri.info">Anant Shrivastava</a>
+repo_url: https://github.com/anantshri/mkdocs-tamerdocs
+copyright: Copyright &copy; <a href="https://anantshri.info">Anant Shrivastava</a> :)
 theme_dir: tamerdocs
-include_next_prev: false
 extra:
+  navigation: false
   search: true
-  twitter: https://www.twitter.com/anantshri
-  facebook: https://www.facebook.com/Anantshri
+  twitter: https://www.twitter.com/androidtamer
+  facebook: https://www.facebook.com/AndroidTamer
   linkedin: https://www.linkedin.com/in/anantshri

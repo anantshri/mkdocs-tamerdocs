@@ -1,16 +1,16 @@
-{% if meta.source %}
+{% if page.meta.source %}
 <div class="source-links">
-{% for filename in meta.source %}
+{% for filename in page.meta.source %}
     <span class="label label-primary">{{ filename }}</span>
 {% endfor %}
 </div>
 {% endif %}
-{% if meta.mindmap %}
+{% if page.meta.mindmap %}
 <div class="mindmap">
+{% else %}
+<div class="content">
 {% endif %}
 
-{{ content }}
+{{ page.content }}
 
-{% if meta.mindmap %}
 </div>
-{% endif %}

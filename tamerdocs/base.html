@@ -4,39 +4,35 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
-        {% if site_author %}<meta name="author" content="{{ site_author }}">{% endif %}
-        {% if canonical_url %}
-        <link rel="canonical" href="{{ canonical_url }}">
+        {% if config.site_description %}<meta name="description" content="{{ config.site_description }}">{% endif %}
+        {% if config.site_author %}<meta name="author" content="{{ config.site_author }}">{% endif %}
+        {% if page.canonical_url %}
+        <link rel="canonical" href="{{ page.canonical_url }}">
         {% endif %}
-        {% if favicon %}
-        <link rel="shortcut icon" href="{{ base_url }}/{{ favicon }}">
-        {% else %}
         <link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">
-        {% endif %}
         <meta name="twitter:card" content="summary" />
         {% if config.extra.twitter %}
         <meta name="twitter:site" content="{{ config.extra.twitter }}" />
         {% endif %}
-        <meta name="twitter:title" content="{{ site_name }}" />
-        <meta property="og:title" content="{{ site_name }}" />
-        <meta property="og:url" content="{{ site_url }}" />
-        {% if page_description %}
-        <meta property="og:description" content="{{ page_description }}" />
-        <meta name="twitter:description" content="{{ page_description }}" />
+        <meta name="twitter:title" content="{{ config.site_name }}" />
+        <meta property="og:title" content="{{ config.site_name }}" />
+        <meta property="og:url" content="{{ config.site_url }}" />
+        {% if config.site_description %}
+        <meta property="og:description" content="{{ config.site_description }}" />
+        <meta name="twitter:description" content="{{ config.site_description }}" />
         {% endif %}
         {% if config.extra.social_image %}
         <meta property="og:image" content="{{ base_url }}{{ config.extra.social_image }}" />
         <meta name="twitter:image" content="{{ base_url }}{{ config.extra.social_image }}" />
         {% endif %}
-        <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}</title>
+        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
         <link href="{{ base_url }}/css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="{{ base_url }}/css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="{{ base_url }}/css/base.css" rel="stylesheet">
-        {% if current_page and meta.mindmap %}
+        {% if page and page.meta.mindmap %}
         <link rel="stylesheet" href="{{ base_url }}/css/mindmap.css">
         {% endif %}
-        {% if current_page and meta.asciinema %}
+        {% if page and page.meta.asciinema %}
         <link rel="stylesheet" type="text/css" href="{{ base_url }}/css/asciinema-player.css" />
         {% endif %}
         <link rel="stylesheet" href="{{ base_url }}/css/highlight.css">
@@ -51,13 +47,13 @@
         <![endif]-->
     </head>
 
-    <body{% if current_page and current_page.is_homepage %} class="homepage"{% endif %}>
+    <body{% if page and page.is_homepage %} class="homepage"{% endif %}>
 
         {% include "nav.html" %}
 
         <div class="container">
             {% block content %}
-                {% if meta.hide_toc %}
+                {% if page.meta.hide_toc %}
                     <div class="col-md-12" role="main">{% include "content.html" %}</div>
                 {% else %}
                     <div class="col-md-3">{% include "toc.html" %}</div>
@@ -68,8 +64,8 @@
 
         <footer class="col-md-12">
             <hr>
-            {% if copyright %}
-                <p>{{ copyright }}</p>
+            {% if config.copyright %}
+                <p>{{ config.copyright }}</p>
             {% endif %}
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> - Last updated : {{ build_date_utc.strftime('%Y-%m-%d') }}</p>
         </footer>
@@ -77,7 +73,7 @@
         <script src="{{ base_url }}/js/jquery-1.12.3.min.js"></script>
         <script src="{{ base_url }}/js/bootstrap-3.0.3.min.js"></script>
         <script src="{{ base_url }}/js/highlight.pack.js"></script>
-        {% if current_page and meta.asciinema %}
+        {% if page and page.meta.asciinema %}
         <script src="{{ base_url }}/js/asciinema-player.js"></script>
         {% endif %}
         <script>var base_url = '{{ base_url }}';</script>
@@ -116,7 +112,7 @@
 {% endif %}
     </body>
 </html>
-{% if current_page and current_page.is_homepage %}
+{% if page and page.is_homepage %}
 <!--
 MkDocs version : {{ mkdocs_version }}
 Build Date UTC : {{ build_date_utc }}
