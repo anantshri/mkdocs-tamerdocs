@@ -1,14 +1,23 @@
-# MkDocs Reloaded Theme
+# Tamerdocs
 
-This project provides a customized version of Default [MkDocs] theme.
+This is a custom [Mkdocs] theme, built specifically for [AndroidTamer] Documentation projects
 
 ## Installation
 
-Pending
+Install the latest version of tamerdocs with pip:
+```
+pip install mkdocs-tamerdocs
+```
+Add the following line to your mkdocs.yml:
+```
+theme: 'tamerdocs'
+```
 
 ## Example
 
 This [documentation] is rendered with the Tamerdocs theme.
 
-[Mkdocs]: http://www.mkdocs.org
-[documentation]: http://tools.androidtamer.com/
+[Mkdocs]: https://www.mkdocs.org
+[AndroidTamer]: https://androidtamer.com
+[documentation]: https://tools.androidtamer.com
+
