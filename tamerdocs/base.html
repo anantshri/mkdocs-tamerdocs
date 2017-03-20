@@ -25,7 +25,7 @@
         <meta property="og:image" content="{{ base_url }}{{ config.extra.social_image }}" />
         <meta name="twitter:image" content="{{ base_url }}{{ config.extra.social_image }}" />
         {% endif %}
-        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+        <title>{% if page and page.title and not page.is_homepage %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
         <link href="{{ base_url }}/css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="{{ base_url }}/css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="{{ base_url }}/css/base.css" rel="stylesheet">
