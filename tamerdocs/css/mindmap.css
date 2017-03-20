@@ -3,6 +3,9 @@ html, body {
  display: inline-block;
 }
 
+.mindmap{
+	line-height: 2;
+}
 
 ul {
 	min-height: 100%;
@@ -18,10 +21,9 @@ ul {
  clear: left;
  margin-top: 12px;
  margin-bottom: 12px;
- text-decoration: underline;
 }
 
-ul ul {
+.mindmap > ul ul {
 	border-left: 1px solid black;
 	margin-bottom: 10px;
 	padding-top: 10px;
@@ -29,10 +31,9 @@ ul ul {
 	padding-left: 16px;
 	margin-left: 16px;
 	position: relative;
-	text-decoration: underline;
 }
 
-ul ul:after{
+.mindmap > ul ul:after{
 	width: 16px;
 	height: 16px;
 	/*background-color: red;*/
