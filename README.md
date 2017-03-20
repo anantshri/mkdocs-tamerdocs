@@ -1,5 +1,7 @@
 # Mkdocs theme for Android Tamer Documentation
 
+[![PyPI](https://img.shields.io/pypi/dm/mkdocs-tamerdocs.svg)](mkdocs-tamer) [![PyPI](https://img.shields.io/pypi/v/mkdocs-tamerdocs.svg)](Version)
+
 Based on default mkdocs theme with multiple customizations.
 
 Customizations include
