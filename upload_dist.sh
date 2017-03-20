@@ -11,9 +11,10 @@ echo "Building $NAME version $VERSION"
 python setup.py sdist bdist_wheel
 cd dist
 gpg --detach-sign -a "$NAME-"$VERSION".tar.gz"
+gpg --detach-sign -a $WNAME-$VERSION-py2-none-any.whl
 cd ..
 echo "Registering product"
 twine register dist/$WNAME-$VERSION-py2-none-any.whl $TESTPY
 twine register dist/$NAME-$VERSION.tar.gz $TESTPY
 echo "uploading product"
-twine upload dist/* $TESTPY
+twine upload dist/*-$VERSION* $TESTPY
